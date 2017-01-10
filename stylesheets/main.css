@@ -6,7 +6,7 @@ body {
 	background-color: black;	
 }
 
-#header-container {	
+#header-container, li{	
 	display: block;
 	background-color: black;
 	border: ;
@@ -14,9 +14,17 @@ body {
 	cursor: default;
 	padding: 0px 0px 0px 0px;
 	float:left;
-	margin: 0px 0px 0px 40px;
-	
+	margin: 0px 0px 0px 30px;
+	text-decoration: none;
 }
+	a:active {
+		color: white;
+	}
+	a:hover {
+		color:blue;
+		text-decoration: none;
+		font-weight: normal;
+	}
 
 .title-list {
 	float:center;
@@ -101,19 +109,30 @@ body {
 
 /* BIO STYLING */ 
 
-.andy-bio-header {
-
+.andy-bio-container {
+	border: 1px solid green;
+	padding:15px;
+	background-color: white;
 }
 
-.andy-bio-nav {
+.andy-bio-nav-list {
+	font-family: 'EB Garamond', serif;
+	font-weight: bold;
+	border:1px solid white;
+	color:black;
+	font-size: 20px;
+	margin-top: -10px;
+	float: left;
+	background-color: white;
+	text-decoration: none;
 
 }
 
 .andy-bio-wrapper {
-
+	float: center;
+	border: ;
+	padding-left: 190px;	
 }
-
-
 
 /* BOEKE STYLING */
 
