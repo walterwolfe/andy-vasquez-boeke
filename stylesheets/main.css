@@ -3,10 +3,11 @@
 /* HOME PAGE STYLING */
 
 body {
-	background-color: black;	
+	background-color: black;
+	margin: 0;	
 }
 
-#header-container, li{	
+#title-container li {	
 	display: block;
 	background-color: black;
 	border: ;
@@ -17,16 +18,8 @@ body {
 	margin: 0px 0px 0px 30px;
 	text-decoration: none;
 }
-	a:active {
-		color: white;
-	}
-	a:hover {
-		color:blue;
-		text-decoration: none;
-		font-weight: normal;
-	}
 
-.title-list {
+#title-container li.title-list {
 	float:center;
 	display:inline;
 	margin-left: 130px;
@@ -39,11 +32,61 @@ body {
 
 }
 
-#header-container-two {
+a,
+a:link,
+a:visited {
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+a:hover,
+a:active {	
+	color: grey;
+}
+
+.nav-main {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.img-faded {
+	opacity: .8;
+	transition: all .5s;
+}
+
+.img-faded:hover {
+	opacity: 1;
+	transform: scale(1.25);
+}	
+
+.nav-main li {
+	display: inline;
+	margin-right: 60px;
+	margin-left: 25px;
+}
+
+.nav-main a,
+.nav-main a:link,
+.nav-main a:visited {
+	color: black;
+	text-decoration: none;
+
+}
+
+.nav-main a:hover,
+.nav-main a:active {
+	color: grey;
+}
+
+#image-container {
 	
 }
 
-#header-container-three {
+#header-container {
 	margin-left: 385px;
 	display: inline-block;
 	margin-top: 20px;
@@ -110,22 +153,8 @@ body {
 /* BIO STYLING */ 
 
 .andy-bio-container {
-	border: 1px solid green;
 	padding:15px;
 	background-color: white;
-}
-
-.andy-bio-nav-list {
-	font-family: 'EB Garamond', serif;
-	font-weight: bold;
-	border:1px solid white;
-	color:black;
-	font-size: 20px;
-	margin-top: -10px;
-	float: left;
-	background-color: white;
-	text-decoration: none;
-
 }
 
 .andy-bio-wrapper {
@@ -137,14 +166,17 @@ body {
 /* BOEKE STYLING */
 
 .andy-boeke-header {
-
-}
-
-.andy-boeke-nav {
+	border:;
+	padding:15px;
+	background-color: white;
+	
 
 }
 
 .andy-boeke-wrapper {
+	float: center;
+	border: ;
+	padding-left: 190px;	
 
 }
 
