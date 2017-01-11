@@ -7,18 +7,6 @@ body {
 	margin: 0;	
 }
 
-#title-container li {	
-	display: block;
-	background-color: black;
-	border: ;
-	color: white;
-	cursor: default;
-	padding: 0px 0px 0px 0px;
-	float:left;
-	margin: 0px 0px 0px 30px;
-	text-decoration: none;
-}
-
 #title-container li.title-list {
 	float:center;
 	display:inline;
@@ -29,7 +17,6 @@ body {
 	font-weight: bold;
 	border:;
 	color:white;
-
 }
 
 a,
@@ -45,24 +32,26 @@ a:active {
 	color: grey;
 }
 
-.nav-main {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	font-family: 'Open Sans Condensed', sans-serif;
-
-}
-
 .img-faded {
-	opacity: .8;
+	opacity: .6;
 	transition: all .5s;
 }
 
 .img-faded:hover {
 	opacity: 1;
-	transform: scale(1.25);
+	transform: scale(1.00);
+	border: 2px solid white;
+
 }	
 
+.nav-main {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding:15px;
+	background-color: white;
+}
 .nav-main li {
 	display: inline;
 	margin-right: 60px;
@@ -81,6 +70,7 @@ a:active {
 .nav-main a:active {
 	color: grey;
 }
+
 
 #image-container {
 	
@@ -153,8 +143,7 @@ a:active {
 /* BIO STYLING */ 
 
 .andy-bio-container {
-	padding:15px;
-	background-color: white;
+	
 }
 
 .andy-bio-wrapper {
@@ -166,12 +155,8 @@ a:active {
 /* BOEKE STYLING */
 
 .andy-boeke-header {
-	border:;
-	padding:15px;
-	background-color: white;
 	
-
-}
+	}
 
 .andy-boeke-wrapper {
 	float: center;
