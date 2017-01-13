@@ -1,11 +1,86 @@
-
-
 /* HOME PAGE STYLING */
 
 body {
 	background-color: black;
 	margin: 0;	
 }
+
+#header-container {
+	font-size: 10px;
+}
+.andy-email {
+	color: white;
+	display: inline-block;
+	font-size: 15px;
+	margin-left: 15px;
+	font-family: 'EB Garamond', serif;
+	float: center;
+	border-right: 
+	border-bottom: 1px solid white;
+	border-left:1px	solid white;
+	padding:15px;
+		
+}
+
+/* MOBILE RESPONSIVE */
+
+@media all and (min-width: 380px) {
+
+	#header-container {
+		display: block;
+		margin-left: 385px;
+		display: inline-block;
+		margin-top: 20px;
+		border-right: 1px solid white;
+		border-bottom: 1px solid white;
+		border-left:1px	solid white;
+	}
+
+	.andy-email {
+		color: white;
+		display: inline-block;
+		font-size: 35px;
+		margin-left: 15px;
+		font-family: 'EB Garamond', serif;
+		float: center;
+		border-right: 
+		border-bottom: 1px solid white;
+		border-left:1px	solid white;
+		padding:15px;
+			
+	}
+
+	.img-display-two {
+		opacity: .6;
+		transition: all .5s;
+	}	
+	
+	.img-display-three {
+		opacity: .6;
+		transition: all .5s;
+	}
+
+	#image-container {
+		max-width: 1430px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.img-wrapper {
+		max-width: 1430px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.title-list {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1430px;
+	}
+} 
+
+/* END OF MOBILE RESPONSIVE */
+
 
 #title-container li.title-list {
 	float:center;
@@ -17,6 +92,12 @@ body {
 	font-weight: bold;
 	border:;
 	color:white;
+	max-width: 
+}
+
+
+#header-container-three p {
+		
 }
 
 a,
@@ -32,18 +113,33 @@ a:active {
 	color: grey;
 }
 
-.img-faded {
+.img-display-two {
 	opacity: .6;
 	transition: all .5s;
+	width: 100%;
+	max-width: 700px;
 }
 
-.img-faded:hover {
+.img-display-three {
+	opacity: .6;
+	transition: all .5s;
+	width: 100%;
+	max-width: 466px;
+}
+
+.img-display-two:hover {
 	opacity: 1;
 	transform: scale(1.00);
 	border: 2px solid white;
 
 }	
 
+.img-display-three:hover {
+	opacity: 1;
+	transform: scale(1.00);
+	border: 2px solid white;
+
+}	
 .nav-main {
 	list-style: none;
 	margin: 0;
@@ -72,47 +168,8 @@ a:active {
 }
 
 
-#image-container {
-	
-}
-
-#header-container {
-	margin-left: 385px;
-	display: inline-block;
-	margin-top: 20px;
-	border-right: 1px solid white;
-	border-bottom: 1px solid white;
-	border-left:1px	solid white;
-}
-
-#header-container-three img {
-	margin-right: 20px; 
-	margin-top: 20px;
-}
-
-#header-container-three p {
-		
-}
-
-
-.andy-email {
-	color: white;
-	display: inline-block;
-	font-size: 35px;
-	margin-left: 15px;
-	font-family: 'EB Garamond', serif;
-	float: center;
-	border-right: 
-	border-bottom: 1px solid white;
-	border-left:1px	solid white;
-	padding:15px;
-		
-}
-
-
 
 .img-wrapper {
-	display: inline;
 	
 }
 
